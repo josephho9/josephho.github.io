@@ -11,6 +11,15 @@ export const PERSONAL_INFO = {
 
 export const EXPERIENCE: ExperienceItem[] = [
   {
+    company: "Capital One",
+    position: "Software Engineer",
+    period: "Incoming",
+    description: [
+      "Incoming Software Engineer joining Capital One's technology program as a Technology Development Program (TDP) Associate."
+    ],
+    technologies: []
+  },
+  {
     company: "ThayerMahan",
     position: "Machine Learning Engineer Intern",
     period: "May 2025 - Aug 2025",

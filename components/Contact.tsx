@@ -14,8 +14,7 @@ export const Contact: React.FC = () => {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
         <div>
           <h2 className="text-2xl font-bold text-white mb-2">Get in touch</h2>
-          <p className="text-secondary">
-            Currently looking for new opportunities.
+          <p className="text-secondary">Always open to connecting and discussing interesting projects.
           </p>
           <a 
             href={`mailto:${PERSONAL_INFO.email}`} 
