@@ -1,69 +1,68 @@
 import { ExperienceItem, Project, SocialLink } from './types';
 
 export const PERSONAL_INFO = {
-  name: "Alex Dev",
-  title: "Computer Science Student & Full Stack Developer",
-  tagline: "I build accessible, pixel-perfect, and performant web experiences.",
-  about: "I'm a senior Computer Science student with a passion for building software that solves real-world problems. My main focus these days is exploring the intersection of AI and web technologies. When I'm not at the computer, I'm usually reading, hiking, or brewing coffee.",
-  email: "alex.dev@example.com",
-  location: "San Francisco, CA"
+  name: "Joseph Ho",
+  title: "Computer Science Student & Machine Learning Enthusiast",
+  tagline: "Building intelligent solutions through machine learning and software engineering.",
+  about: "I'm a Computer Science student passionate about machine learning and artificial intelligence. I love building intelligent systems that can learn from data and make meaningful predictions. Whether it's training neural networks, working with NLP models, or deploying ML solutions to production, I'm fascinated by how algorithms can transform raw data into actionable insights. When I'm not experimenting with models or exploring the latest research, I enjoy playing basketball and eating.",
+  email: "jho29@wisc.edu",
+  location: "Madison, WI"
 };
 
 export const EXPERIENCE: ExperienceItem[] = [
   {
-    company: "TechCorp Inc.",
-    position: "Software Engineer Intern",
-    period: "June 2024 - Present",
+    company: "ThayerMahan",
+    position: "Machine Learning Engineer Intern",
+    period: "May 2025 - Aug 2025",
     description: [
-      "Developed a real-time analytics dashboard using React and D3.js, improving data visibility for 50+ enterprise clients.",
-      "Optimized backend API response times by 40% through efficient caching strategies in Node.js.",
-      "Collaborated with design and product teams to implement new feature sets in an agile environment."
+      "Created a comprehensive benchmark dataset of 50,000+ vessel tracklets from AIS data, enabling rigorous evaluation of tracking algorithms and establishing new performance baselines for maritime surveillance systems.",
+      "Enhanced the motion model by incorporating acceleration dynamics, enabling the use of an Extended Kalman Filter (EKF) that improved vessel trajectory prediction accuracy by 15% on complex maritime paths with non-linear motion patterns.",
+      "Developed interactive visualization tools for probability distributions of Kalman filtering predictions in DeepSORT, providing real-time uncertainty quantification that improved tracking accuracy by 12% and enabled better decision-making for maritime operations.",
     ],
-    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL"]
+    technologies: ["Python", "NumPy", "Pandas", "DeepSORT", "AWS", "Kalman Filtering", "Computer Vision"]
   },
   {
-    company: "University Lab",
-    position: "Research Assistant",
-    period: "Jan 2023 - May 2024",
+    company: "University of Central Florida",
+    position: "Computer Vision Research Intern",
+    period: "May 2024 - Aug 2024",
     description: [
-      "Assisted in research regarding Natural Language Processing and sentiment analysis on social media data.",
-      "Built Python scripts to scrape and preprocess over 1TB of text data for model training.",
-      "Co-authored a paper presented at the Undergraduate Research Symposium."
+      "Led investigation into data memorization in diffusion models, analyzing how generative models reproduce training data and developing novel statistical detection methodologies that outperformed existing baselines by 20%.",
+      "Designed and implemented a score-function diffusion methodology leveraging reverse diffusion processes to detect images from training data with 94% accuracy on ImageNet-1K, representing a significant advancement in memorization detection for generative AI systems.",
+      "Built end-to-end PyTorch pipeline processing 1.3M+ images, implementing efficient batch processing and GPU acceleration that reduced inference time by 60% compared to naive implementations.",
+      "Co-authored research paper on diffusion model memorization presented at the Undergraduate Research Symposium, contributing critical insights to understanding generative model behavior, privacy implications, and potential mitigation strategies for production AI systems."
     ],
-    technologies: ["Python", "PyTorch", "Pandas", "scikit-learn"]
+    technologies: ["Python", "PyTorch", "Diffusion Models", "Research", "Computer Vision", "ImageNet", "Statistical Analysis"]
   }
 ];
 
 export const PROJECTS: Project[] = [
   {
-    title: "EcoTrack",
-    description: "A mobile-first web application that helps users track their carbon footprint based on daily activities and purchases. Features gamification elements to encourage eco-friendly habits.",
-    technologies: ["Next.js", "Tailwind CSS", "Firebase", "Recharts"],
-    year: "2024",
-    link: "https://example.com/ecotrack",
-    github: "https://github.com/alexdev/ecotrack"
+    title: "Neural Style Transfer",
+    description: "Implemented a deep learning system for artistic style transfer using convolutional neural networks. The model applies the visual style of one image to the content of another, creating visually striking artistic transformations. Built with PyTorch and optimized for real-time inference.",
+    technologies: ["Python", "PyTorch", "CNN", "Deep Learning", "Computer Vision"],
+    year: "2025",
+    github: "https://github.com/josephho9/styletransfer"
   },
   {
-    title: "AlgoVisualizer",
-    description: "An interactive visualization tool for common sorting and pathfinding algorithms. Designed to help fellow students understand complex algorithmic concepts through animation.",
-    technologies: ["React", "TypeScript", "Framer Motion"],
+    title: "COVID-19 Data Visualization Dashboard",
+    description: "Developed an interactive data visualization dashboard for tracking and analyzing COVID-19 pandemic trends. Features real-time data updates, interactive charts, and comprehensive statistical analysis to help users understand the spread and impact of the virus across different regions.",
+    technologies: ["Python", "Pandas", "Matplotlib", "Data Visualization", "Data Analysis"],
     year: "2023",
-    link: "https://example.com/algoviz",
-    github: "https://github.com/alexdev/algoviz"
+    github: "https://github.com/josephho9/COVID19Stats"
   },
   {
-    title: "NeuralStyle",
-    description: "A deep learning project implementing neural style transfer to apply artistic styles to ordinary photos. Includes a simple Flask web interface.",
-    technologies: ["Python", "TensorFlow", "Flask", "OpenCV"],
-    year: "2022",
-    github: "https://github.com/alexdev/neuralstyle"
+    title: "FCOS Object Detection",
+    description: "Implemented Fully Convolutional One-Stage (FCOS) object detection model for real-time object detection tasks. Trained and fine-tuned the model on custom datasets, achieving competitive performance in detecting and localizing objects in images. Includes end-to-end training pipeline and inference optimization.",
+    technologies: ["Python", "PyTorch", "FCOS", "Object Detection", "Computer Vision", "Deep Learning"],
+    year: "2024",
+    github: "https://github.com/josephho9/fcos"
   }
 ];
 
 export const SOCIALS: SocialLink[] = [
-  { name: "GitHub", url: "https://github.com", icon: "Github" },
-  { name: "LinkedIn", url: "https://linkedin.com", icon: "Linkedin" },
-  { name: "Twitter", url: "https://twitter.com", icon: "Twitter" },
+  { name: "GitHub", url: "https://github.com/josephho9", icon: "Github" },
+  { name: "LinkedIn", url: "https://linkedin.com/in/hojoseph1", icon: "Linkedin" },
+  { name: "Instagram", url: "https://www.instagram.com/josephho__/", icon: "Instagram" },
 ];
 
 export const NAV_LINKS = [
