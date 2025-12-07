@@ -4,10 +4,20 @@ import { ArrowRight } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
-    <div className="flex flex-col justify-center min-h-[60vh] animate-slide-up">
-      <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-6 text-white leading-tight">
-        {PERSONAL_INFO.tagline}
-      </h1>
+    <div className="flex flex-col md:flex-row md:items-center md:gap-12 justify-center min-h-[60vh] animate-slide-up">
+      {PERSONAL_INFO.photo && (
+        <div className="mb-8 md:mb-0 flex-shrink-0">
+          <img 
+            src={PERSONAL_INFO.photo} 
+            alt={PERSONAL_INFO.name}
+            className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-white/10 shadow-2xl"
+          />
+        </div>
+      )}
+      <div className="flex-1">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-6 text-white leading-tight">
+          {PERSONAL_INFO.tagline}
+        </h1>
       <p className="text-lg md:text-xl text-secondary max-w-2xl leading-relaxed mb-10">
         {PERSONAL_INFO.about}
       </p>
@@ -26,6 +36,7 @@ export const Hero: React.FC = () => {
         >
           Contact Me
         </a>
+      </div>
       </div>
     </div>
   );

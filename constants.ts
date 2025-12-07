@@ -6,7 +6,8 @@ export const PERSONAL_INFO = {
   tagline: "Building intelligent solutions through machine learning and software engineering.",
   about: "I'm a Computer Science student at the University of Wisconsin-Madison passionate about machine learning and artificial intelligence. I love building intelligent systems that can learn from data and make meaningful predictions. Whether it's training neural networks, working with NLP models, or deploying ML solutions to production, I'm fascinated by how algorithms can transform raw data into actionable insights. When I'm not experimenting with models or exploring the latest research, I enjoy playing basketball and eating.",
   email: "jho29@wisc.edu",
-  location: "Madison, WI"
+  location: "Madison, WI",
+  photo: "/beach.png" // Path to your photo in the public folder
 };
 
 export const EXPERIENCE: ExperienceItem[] = [
