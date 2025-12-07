@@ -8,7 +8,7 @@ export const Hero: React.FC = () => {
       {PERSONAL_INFO.photo && (
         <div className="mb-8 md:mb-0 flex-shrink-0">
           <img 
-            src={PERSONAL_INFO.photo} 
+            src={import.meta.env.BASE_URL + PERSONAL_INFO.photo.replace(/^\//, '')}
             alt={PERSONAL_INFO.name}
             className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-white/10 shadow-2xl"
           />
