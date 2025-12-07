@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
   name: "Joseph Ho",
   title: "Computer Science Student & Machine Learning Enthusiast",
   tagline: "Building intelligent solutions through machine learning and software engineering.",
-  about: "I'm a Computer Science student at the University of Wisconsin-Madison passionate about machine learning and artificial intelligence. I love building intelligent systems that can learn from data and make meaningful predictions. Whether it's training neural networks, working with NLP models, or deploying ML solutions to production, I'm fascinated by how algorithms can transform raw data into actionable insights. When I'm not experimenting with models or exploring the latest research, I enjoy playing basketball and eating.",
+  about: "I'm a Computer Science studeWhen I’m not tinkering with models or digging into new research, you’ll usually find me on the basketball court or looking for something good to eat.",
   email: "jho29@wisc.edu",
   location: "Madison, WI",
   photo: "/beach.png" // Path to your photo in the public folder
