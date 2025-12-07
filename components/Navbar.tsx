@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { NAV_LINKS } from '../constants';
+import { NAV_LINKS, PERSONAL_INFO } from '../constants';
 import { Menu, X } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
@@ -22,7 +22,8 @@ export const Navbar: React.FC = () => {
     >
       <div className="max-w-4xl mx-auto px-6 md:px-12 flex justify-between items-center">
         <a href="#" className="text-xl font-bold tracking-tight hover:text-white transition-colors">
-          ALEX<span className="text-secondary">.DEV</span>
+          {PERSONAL_INFO.name.split(' ')[0].toUpperCase()}
+          <span className="text-secondary">.{PERSONAL_INFO.name.split(' ')[1]?.toUpperCase() || ''}</span>
         </a>
 
         {/* Desktop Nav */}

@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MessageSquare, X, Send, Sparkles, User, Bot } from 'lucide-react';
 import { sendMessageToGemini } from '../services/geminiService';
 import { ChatMessage } from '../types';
+import { PERSONAL_INFO } from '../constants';
 
 export const AIChatWidget: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ export const AIChatWidget: React.FC = () => {
     {
       id: '1',
       role: 'model',
-      text: "Hi! I'm an AI trained on Alex's portfolio. Ask me anything about his experience or projects!",
+      text: `Hi! I'm an AI trained on ${PERSONAL_INFO.name}'s portfolio. Ask me anything about their experience or projects!`,
       timestamp: Date.now()
     }
   ]);
