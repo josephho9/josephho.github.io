@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   about: "I'm a Computer Science student at the University of Wisconsin-Madison passionate about machine learning and artificial intelligence. I love building intelligent systems that can learn from data and make meaningful predictions. Whether it's training neural networks, working with CV models, or deploying ML solutions to production, I'm fascinated by how algorithms can transform raw data into actionable insights. When I’m not tinkering with models or digging into new research, you’ll usually find me on the basketball court or looking for something good to eat.",
   email: "jho29@wisc.edu",
   location: "Madison, WI",
-  photo: "/beach.png" // Path to your photo in the public folder
+  photo: "/image.png" // Path to your photo in the public folder
 };
 
 export const EXPERIENCE: ExperienceItem[] = [
@@ -16,7 +16,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     position: "Software Engineer",
     period: "Incoming",
     description: [
-      "Incoming Software Engineer joining Capital One's technology program as a Technology Development Program (TDP) Associate."
+      "Incoming Software Engineer joining Capital One’s Technology Development Program (TDP) after graduation."
     ],
     technologies: []
   },
