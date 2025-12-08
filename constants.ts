@@ -38,9 +38,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     description: [
       "Led investigation into data memorization in diffusion models, analyzing how generative models reproduce training data and developing novel statistical detection methodologies that outperformed existing baselines by 20%.",
       "Designed and implemented a score-function diffusion methodology leveraging reverse diffusion processes to detect images from training data with 94% accuracy on ImageNet-1K, representing a significant advancement in memorization detection for generative AI systems.",
-      "Built end-to-end PyTorch pipeline processing 1.3M+ images, implementing efficient batch processing and GPU acceleration that reduced inference time by 60% compared to naive implementations.",
-      "Co-authored research paper on diffusion model memorization presented at the Undergraduate Research Symposium, contributing critical insights to understanding generative model behavior, privacy implications, and potential mitigation strategies for production AI systems."
-    ],
+      "Built end-to-end PyTorch pipeline processing 1.3M+ images, implementing efficient batch processing and GPU acceleration that reduced inference time by 60% compared to naive implementations.",    ],
     technologies: ["Python", "PyTorch", "Diffusion Models", "Research", "Computer Vision", "ImageNet", "Statistical Analysis"]
   }
 ];
