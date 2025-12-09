@@ -14,7 +14,7 @@ export const EXPERIENCE: ExperienceItem[] = [
   {
     company: "Capital One",
     position: "Software Engineer",
-    period: "Incoming",
+    period: "August 2026",
     description: [
       "Incoming Software Engineer joining Capital One’s Technology Development Program (TDP) after graduation."
     ],
